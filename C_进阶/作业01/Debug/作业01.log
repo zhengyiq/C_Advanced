@@ -1,0 +1,5 @@
+﻿  作业.c
+e:\桌面转移\cpp\c++\c_advanced\c_进阶\作业01\作业.c(7): warning C4101: “arr1”: 未引用的局部变量
+e:\桌面转移\cpp\c++\c_advanced\c_进阶\作业01\作业.c(8): warning C4101: “arr2”: 未引用的局部变量
+e:\桌面转移\cpp\c++\c_advanced\c_进阶\作业01\作业.c(9): warning C4101: “i”: 未引用的局部变量
+  作业01.vcxproj -> E:\桌面转移\CPP\C++\C_Advanced\C_进阶\Debug\作业01 5.16.exe
