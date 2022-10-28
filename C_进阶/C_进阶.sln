@@ -9,9 +9,15 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "作业01 5.16", "作业01\�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_进阶 02 指针", "C_进阶 02 指针\C_进阶 02 指针.vcxproj", "{0799FBC5-6824-4BF7-AC61-A679D7AB11AC}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "字符串函数", "字符串函数\字符串函数.vcxproj", "{1F449968-817B-4323-B463-E019D350389D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_进阶 03 字符串函数", "字符串函数\字符串函数.vcxproj", "{1F449968-817B-4323-B463-E019D350389D}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "作业02 08.09", "作业02 08.09\作业02 08.09.vcxproj", "{67CBED38-2E7F-4055-BAD9-D22D7F479404}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_进阶 04 结构体、枚举、联合体", "结构体、枚举、联合体\结构体、枚举、联合体.vcxproj", "{F9E07BBC-0386-4BB2-904C-4016984849F9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_进阶 06 文件操作", "文件操作\文件操作.vcxproj", "{A4FB9E9E-41C2-419D-9932-C8B4CEFC44BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C_进阶 05 动态内存分配", "C_进阶 05 动态内存分配\C_进阶 05 动态内存分配.vcxproj", "{D0860268-CAAE-49D1-8966-5A465F004A9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +67,30 @@ Global
 		{67CBED38-2E7F-4055-BAD9-D22D7F479404}.Release|x64.Build.0 = Release|x64
 		{67CBED38-2E7F-4055-BAD9-D22D7F479404}.Release|x86.ActiveCfg = Release|Win32
 		{67CBED38-2E7F-4055-BAD9-D22D7F479404}.Release|x86.Build.0 = Release|Win32
+		{F9E07BBC-0386-4BB2-904C-4016984849F9}.Debug|x64.ActiveCfg = Debug|x64
+		{F9E07BBC-0386-4BB2-904C-4016984849F9}.Debug|x64.Build.0 = Debug|x64
+		{F9E07BBC-0386-4BB2-904C-4016984849F9}.Debug|x86.ActiveCfg = Debug|Win32
+		{F9E07BBC-0386-4BB2-904C-4016984849F9}.Debug|x86.Build.0 = Debug|Win32
+		{F9E07BBC-0386-4BB2-904C-4016984849F9}.Release|x64.ActiveCfg = Release|x64
+		{F9E07BBC-0386-4BB2-904C-4016984849F9}.Release|x64.Build.0 = Release|x64
+		{F9E07BBC-0386-4BB2-904C-4016984849F9}.Release|x86.ActiveCfg = Release|Win32
+		{F9E07BBC-0386-4BB2-904C-4016984849F9}.Release|x86.Build.0 = Release|Win32
+		{A4FB9E9E-41C2-419D-9932-C8B4CEFC44BF}.Debug|x64.ActiveCfg = Debug|x64
+		{A4FB9E9E-41C2-419D-9932-C8B4CEFC44BF}.Debug|x64.Build.0 = Debug|x64
+		{A4FB9E9E-41C2-419D-9932-C8B4CEFC44BF}.Debug|x86.ActiveCfg = Debug|Win32
+		{A4FB9E9E-41C2-419D-9932-C8B4CEFC44BF}.Debug|x86.Build.0 = Debug|Win32
+		{A4FB9E9E-41C2-419D-9932-C8B4CEFC44BF}.Release|x64.ActiveCfg = Release|x64
+		{A4FB9E9E-41C2-419D-9932-C8B4CEFC44BF}.Release|x64.Build.0 = Release|x64
+		{A4FB9E9E-41C2-419D-9932-C8B4CEFC44BF}.Release|x86.ActiveCfg = Release|Win32
+		{A4FB9E9E-41C2-419D-9932-C8B4CEFC44BF}.Release|x86.Build.0 = Release|Win32
+		{D0860268-CAAE-49D1-8966-5A465F004A9A}.Debug|x64.ActiveCfg = Debug|x64
+		{D0860268-CAAE-49D1-8966-5A465F004A9A}.Debug|x64.Build.0 = Debug|x64
+		{D0860268-CAAE-49D1-8966-5A465F004A9A}.Debug|x86.ActiveCfg = Debug|Win32
+		{D0860268-CAAE-49D1-8966-5A465F004A9A}.Debug|x86.Build.0 = Debug|Win32
+		{D0860268-CAAE-49D1-8966-5A465F004A9A}.Release|x64.ActiveCfg = Release|x64
+		{D0860268-CAAE-49D1-8966-5A465F004A9A}.Release|x64.Build.0 = Release|x64
+		{D0860268-CAAE-49D1-8966-5A465F004A9A}.Release|x86.ActiveCfg = Release|Win32
+		{D0860268-CAAE-49D1-8966-5A465F004A9A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
