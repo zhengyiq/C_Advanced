@@ -201,3 +201,99 @@
 //
 //    return 0;
 
+//#include <stdio.h>
+//
+//int main() {
+//
+//	//输入
+//	int n = 5;
+//	int m = 6;
+//	int arr1[5];
+//	int arr2[6];
+//	//scanf("%d %d", &n, &m);
+//	for (int i = 0; i < n; i++)
+//	{
+//		scanf("%d", &arr1[i]);
+//	}
+//	for (int i = 0; i < m; i++)
+//	{
+//		scanf("%d", &arr2[i]);
+//	}
+//
+//	//输出
+//	int j = 0;
+//	int k = 0;
+//	for (int i = 0; i < n+m-1; i++)
+//	{
+//
+//		if ((arr1[k] < arr2[j]) && (k < n))
+//		{
+//			printf("%d ", arr1[k]);
+//			k++;
+//		}
+//		else if ((arr1[k] >= arr2[j]) && (j < m))
+//		{
+//			printf("%d ", arr2[j]);
+//			j++;
+//		}
+//		else
+//			;
+//		if (k == n)
+//		{
+//			printf("%d ", arr2[j]);
+//			j++;
+//		}
+//		else if(j == m)
+//		{
+//			printf("%d ", arr1[k]);
+//			k++;
+//		}
+//		else;
+//	}
+//
+//
+//	return 0;
+//}
+
+
+#include <stdio.h>
+
+int main() 
+{
+	int n = 0;
+	while (scanf("%d", &n) == 1)
+	{
+		int m = 2 * n + 1;
+		for (int i = 0; i < n; i++) 
+		{
+			//打印空格
+			for (int j = i; j < n; j++) 
+			{
+				printf("  ");
+			}
+			for (int j = 0; j < 1 + i; j++) 
+			{
+				printf("*");
+			}
+			printf("\n");
+		}
+		for (int i = 0; i < n + 1; i++)
+		{
+			printf("*");
+		}
+		printf("\n");
+		for (int i = 0; i < n; i++) 
+		{
+			for (int j = 0; j < i + 1; j++) 
+			{
+				printf("  ");
+			}
+			for (int j = i; j < n; j++) 
+			{
+				printf("*");
+			}
+			printf("\n");
+		}
+	}
+	return 0;
+}
