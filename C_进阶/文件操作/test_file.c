@@ -1,22 +1,27 @@
 #define _CRT_SECURE_NO_WARNINGS 1
 
-#define _CRT_SECURE_NO_WARNINGS 1
-
-#include "contact.h"
+#include "contact_file.h"
 
 void menu()
 {
 	printf("1.add\n");
 	printf("2.del\n");
 	printf("3.search\n");
-	printf("4.modefy\n");
+	printf("4.modify\n");
 	printf("5.show\n");
 	printf("6.sort\n");
-	printf("0.exit\n");
-	printf("\n");
-
+	printf("0.EXIT\n");
 }
-
+enum menu
+{
+	add = 1,
+	del,
+	search,
+	modify,
+	show,
+	sort,
+	EXIT = 0
+};
 int main()
 {
 	int input = 0;
@@ -25,6 +30,7 @@ int main()
 	struct Contact con;
 	//初始化通讯录
 	InitContact(&con);
+	LoadContact(&con);
 	do
 	{
 		menu();
@@ -32,23 +38,27 @@ int main()
 		scanf("%d", &input);
 		switch (input)
 		{
-		case 1:
+		case add:
 			AddContact(&con);
 			break;
-		case 2:
+		case del:
 			DelContact(&con);
 			break;
-		case 3:
+		case search:
 			SearchContact(&con);
 			break;
-		case 4:
+		case modify:
+			ModifyContact(&con);
 			break;
-		case 5:
+		case show:
 			ShowContact(&con);
 			break;
-		case 6:
+		case sort:
+			SqrtContact(&con);
 			break;
-		case 0:
+		case EXIT:
+			SaveContact(&con);
+			DestoryContact(&con);
 			printf("退出通讯录\n");
 			exit(-1);
 			break;
